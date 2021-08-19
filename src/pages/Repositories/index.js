@@ -7,7 +7,7 @@ export default function Repositories(){
         let repositoriesName = localStorage.getItem('repositoriesName');
         repositoriesName = JSON.parse(repositoriesName);
         setRepositories(repositoriesName);
-        localStorage.clear();
+        // localStorage.clear();
     }, []);
 
     return(
@@ -20,6 +20,7 @@ export default function Repositories(){
                 )
             })}
         </S.List>
+        <S.linkHome to="/">Voltar</S.linkHome>
         </S.container>
     ) 
 };
