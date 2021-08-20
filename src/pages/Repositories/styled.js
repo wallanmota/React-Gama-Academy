@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const container = styled.div`
     margin: 0 auto;
-    width: 80%
+    width: 80%;
 ` 
 
 export const Title = styled.h1`
@@ -40,5 +40,4 @@ export const linkHome = styled(Link)`
     &:hover{
         text-decoration: underline;
     }
-
-`
+`;
